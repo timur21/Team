@@ -264,9 +264,7 @@ hr{
     letter-spacing: 2px;
     margin: 0 0 2%;
 }
-.row-fluid [class*="offset"]:first-child {
-    margin-left: 0;
-}
+
 .full-width-container p.intro {
     font-size: 150%;
     line-height: 150%;
@@ -276,13 +274,7 @@ hr{
     font-size: 110%;
     line-height: 165%;
 }
-.uneditable-input[class*="span"], .row-fluid [class*="span"] {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    
-}
+
 .full-width-container h2 {
     font-size: 160%;
     line-height: 130%;
@@ -305,4 +297,68 @@ hr{
 
 .visible-tablet {
     display: none!important;
+}
+
+.cta {
+    background: transparent;
+    border: 1px solid #0680a6;
+    display: inline-block;
+}
+.row-fluid{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cta a:link, .cta a:visited {
+    padding: .4em;
+    display: block;
+    color: #0680a6;
+    text-decoration: none;
+}
+.container .row .col-md-4{
+  color:blue;
+  font-size: 400%;
+}
+
+.full-width-container.no-padding .bound {
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container-fluid{
+  
+      font-family: Whitney SSm A,Whitney SSm B,Arial,sans-serif;
+      font-size: 20px;
+      padding-top: 15px;
+}
+.container-fluid .title{
+max-width: 1300px;
+margin-left: auto;
+margin-right: auto;
+}
+.row1 h4{
+  color: white;
+  text-align: center;
+
+}
+
+.panel-custom>.panel-heading {
+    color: #333;
+    background-color: #002145;
+    border-color: #ddd;
+}
+.panel-custom{
+  border-color: #ddd;
+}
+.panel-custom>.panel-body{
+  background-color: white;
+  padding: 0px;
+}
+.row1 img{
+  width: 100%;
+}
+.container-fluid h1{
+  font-size: 80px;
 }
