@@ -362,3 +362,15 @@ margin-right: auto;
 .container-fluid h1{
   font-size: 80px;
 }
+
+
+.col-md-4 .panel:hover {
+       box-shadow: 10px 10px 10px #888888;
+    }
+.row1 img:hover {-webkit-filter: brightness(150%); }
+.row1 panel-heading:hover {-webkit-filter: brightness(150%); }
+
+
+
+
+
