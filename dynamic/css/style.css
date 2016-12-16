@@ -244,6 +244,7 @@ margin-right: auto;
     display: inline-block;
     width: 100%;
     margin-top: 20px;
+	
 }
 .row2 {
     margin-right: -15px;
@@ -266,4 +267,10 @@ margin-right: auto;
     }
 .row-position .p1{
  font-size: 100px;
+}
+.directory-info-row h3{
+font-size:35px;
+}
+.directory-info-row img{
+height:180px;
 }
