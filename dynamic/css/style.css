@@ -66,9 +66,7 @@ display: block;
     background-color: #002145;
     border-color: #e7e7e7;
 }
-.collapse{
-  text-align: right;
-}
+
 .navbar-com {
     position: center;
     min-height: 40px;
@@ -313,4 +311,8 @@ height:180px;
 #table1, #table2, #table3, #table4 {
     display: none;
 }
+}
+.social .col-md-4{
+    
+    padding-left: 40px;
 }
