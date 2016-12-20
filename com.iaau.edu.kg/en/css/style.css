@@ -103,7 +103,7 @@ display: block;
   font-size: 14px;
 }
 .social{
-  height: 120px;
+ 
   width: 100%;
 }
 hr{
@@ -111,16 +111,12 @@ hr{
   border-style: inset;
   border-width: 2px;
 }
-.social-text{
-  height: 110px;
-  width: 400px;
-  float: left;
+.social .col-md-2{
+  height: 100px;
+
+
 }
-.social-links{
-  height: 110px;
-  width: 300px;
-  float: right;
-}
+
 .social-links img{
   display: inline-block;
   position: relative;
@@ -145,6 +141,16 @@ hr{
 max-width: 400px;
 margin-left: auto;
 margin-right: auto;
+}
+.social-text{
+  height: 110px;
+
+  float: center;
+}
+.social-links{
+  height: 110px;
+
+  float: center;
 }
 
   }
@@ -172,6 +178,17 @@ margin-right: auto;
 .container-logo .dep-logo{
  margin-left: 0px;
 }
+.social-text{
+  height: 110px;
+
+  float: center;
+}
+.social-links{
+  height: 110px;
+
+  float: center;
+}
+
   }
 
 
@@ -185,6 +202,9 @@ margin-right: auto;
 max-width: 1500px;
 margin-left: auto;
 margin-right: auto;
+}
+.social .col-md-2{
+  height: 110;
 }
 
   }
