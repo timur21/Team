@@ -37,8 +37,9 @@ body {font-family: Verdana,sans-serif;margin:0;}
 .container-logo .col-md-4{
   padding-top: 15px;
 }
-.container-logo .col-md-8 p{
+.container-logo .col-md-6 p{
   padding-top: 34px;
+
 }
 .collapse li a:hover:not(.active){
   background-color: rgb(0,133,160);
@@ -129,87 +130,109 @@ hr{
 
 
 }
-    /*==========  Mobile First Method  ==========*/
 
-    /* Custom, iPhone Retina */ 
+    /* For tablets: */
 
-@media only screen and (min-width : 460px) {
-.container-fluid h1 {
-    font-size: 30px;
-}
-.container-fluid .title{
-max-width: 400px;
-margin-left: auto;
-margin-right: auto;
-}
-.social-text{
-  height: 110px;
+/* For mobile phones: */
 
-  float: center;
-}
-.social-links{
-  height: 110px;
 
-  float: center;
-}
-
-  }
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 852px) {
- .container-fluid h1 {
-    font-size: 50px;
-}
-.container-fluid .title{
-
-margin-left: auto;
-margin-right: auto;
+[class*="col-"] {
+    width: 100%;
 
 }
 .container-logo p{
-  display: none!important;
+  display: none;
 }
-.container-logo{
-  height: 100px;
+.social .col-md-4{
+  margin-bottom: 10px;
 }
-.container-logo img{
-  margin-left: auto;
+.container-fluid #events{
+  display: none;
+}
+.container-fluid #news{
   width: 100%;
 }
-.container-logo .dep-logo{
- margin-left: 0px;
+@media only screen and (min-width: 654px) {
+    /* For tablets: */
+
+    .container-fluid {width: 83.33%;}
+.container-logo .col-md-6 p{
+  display: none;
 }
-.social-text{
-  height: 110px;
-
-  float: center;
+.container-fluid h1 {
+    font-size: 0px;
 }
-.social-links{
-  height: 110px;
+    header.carousel .carousel {
+        height: 70%;
+    }
+.container-fluid #events{
+  display: none;
+}
+.container-logo #lang{
+  display: none;
+}
+.social .
 
-  float: center;
 }
 
-  }
-
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
- .container-fluid h1 {
+@media only screen and (min-width: 859px) {
+    /* For desktop: */
+.container-logo #lang{
+  width: 110px;
+  margin-top: 20px;
+  display: inline;
+  float: left;
+}
+.container-logo #en{
+  width: 50px;
+  height: 50px;
+  background-color: #002145;
+  border:3px solid rgb(0,133,160);;
+  border-radius: 100px;
+  position: relative;
+  left: 30px;
+}
+.container-logo #ru{
+  width: 50px;
+  height: 50px;
+  background-color: #002145;
+  border:3px solid rgb(0,133,160);;
+  border-radius: 100px;
+}
+.container-logo #en p1{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 25%;
+  margin-left: 11px;
+}
+.container-logo #ru p1{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 25%;
+    margin-left: 11px;
+}
+.container-fluid {width: 83.33%;}
+.container-logo .col-md-6 p{
+  display: block;
+}
+.container-logo img{width: 100%;}
+.container-fluid h1 {
     font-size: 80px;
 }
-.container-fluid .title{
-max-width: 1500px;
-margin-left: auto;
-margin-right: auto;
+.container-fluid #events{
+  display: block;
 }
-.social .col-md-2{
-  height: 110;
+.container-fluid #news{
+  width: 50%;
 }
 
-  }
-
-
+}
 /* Medium Devices, Desktops */
 
 
@@ -331,3 +354,129 @@ height:180px;
     
     padding-left: 40px;
 }
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+#news{
+  height: 600px;
+
+  float: right;
+  background-color:#002145;
+}
+#event-1 img{
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#event-1:hover img{
+  -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+     transform:scale(1.15);
+}
+#event-3 img{
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#event-3:hover img{
+  -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+     transform:scale(1.1);
+}
+#event-2 img{
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#event-2:hover img{
+  -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+     transform:scale(1.10);
+}
+#event-7 img{
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#event-7:hover img{
+  -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+     transform:scale(1.10);
+}
+#event-4 img{
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#event-4:hover img{
+  -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+     transform:scale(1.10);
+}
+#event-5 img{
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#event-5:hover img{
+  -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+     transform:scale(1.10);
+}
+#event-6 img{
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#event-6:hover img{
+  -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+     transform:scale(1.10);
+}
+#lang{
+display: none;
+}
+
+
