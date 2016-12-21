@@ -17,9 +17,23 @@
     <div class="col-md-4">
       <a href="#"><img src="images/logo.png"></a>
     </div>
-    <div class="col-md-8">
+    <div class="col-md-6">
       <p class="iaau">INTERNATIONAL ATATURK ALATOO UNIVERSITY</p>
     </div>
+      <div id="lang" class="row">
+        <div class="col-md-2">
+        <a href="#">  
+          <div id="ru">
+            <p1>RU</p1>
+          </div>
+        </a></div>
+        <div class="col-md-2" id="enlglish">
+        <a href="#">
+          <div id="en">
+            <p1>EN</p1>
+          </div>
+        </a></div>
+      </div>    
   </div>
 <!-- end of logo header-->
   
@@ -48,34 +62,127 @@
     </div>
   </div>
 <!--end of navigation menu-->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-    <div class="background">
-      <img src="images/homewall.jpg" style="width: 100%; height: auto;">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/homewall.jpg" alt="Chania">
+            </div>
+            <div class="item">
+                 <img src="images/12.jpg" alt="Chania">
+            </div>
+            <div class="item">
+                 <img src="images/12.jpg" alt="Chania">
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+<hr>
+  <div class="container-fluid" id="news-events">
+    <div class="row3">
+      <div class="col-md-6" id="events">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#">
+              <div id="event-1">
+                <img src="images/event.png" style="height: 180px; width: 180px;">
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#">
+              <div id="event-2">
+                <img src="images/code.png" style="height: 180px; width: 180px;">
+              </div>
+            </a>
+          </div>
+            <a href="#">
+              <div id="event-7">
+                <img src="images/moodle.png" style="height: 180px; width: 200px;">
+              </div>
+            </a>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#"> 
+              <div id="event-3">
+                <img src="images/1.png" style="height: 130px; width: 560px;">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+      <a href="#">
+        <div id="event-4">
+          <img src="images/git.png" style="height: 180px; width: 180px;">
+        </div>
+      </a>
+          </div>
+          <div class="col-md-4">
+      <a href="#">
+        <div id="event-5">
+          <img src="images/html5.png" style="height: 180px; width: 180px;">
+        </div>
+      </a>
+          </div>
+      <a href="#">
+        <div id="event-6">
+          <img src="images/ajs.png" style="height: 180px; width: 180px;">
+        </div>
+      </a>
+        </div>
+
+      </div>
+      <div class="col-md-6" id="news">
+
+      </div>      
+
     </div>
-  <!--DO YOUR WORK BELOW-->
+      
+  </div>    
 
-
-  <hr>
-  <div class="social" align="center">
-    <div class="col-md-2">
-      <p class="description" style="font-family: Arial, sans-serif;">
-        <font color="#002145">
+<!--adress,link-->
+<hr>
+<div class="social" align="center">
+  <div class="col-md-4" align="left">
+    <p class="description" style="font-family: Arial, sans-serif; text-align="center";">
+      <font color="#002145">
         International Ataturk Alatoo University,<br>
-        Ankara Street 1/8, Tunguch, 720048,<br>
-        Bishkek, Kyrgyz Republic
-        </font>
-      </p>
-
-    </div>
-    <div class="col-md-2 col-md-offset-8">
+          Ankara Street 1/8, Tunguch, 720048,<br>
+                Bishkek, Kyrgyz Republic
+      </font>
+    </p>
+  </div>
+    <div class="col-md-4 col-md-offset-4" align="right">
       <a href="#"><img src="images/facebook.png" style="height: 40px;width: 40px;"></a>
       <a href="#"><img src="images/twitter.png" style="height: 40px;width: 40px;"></a>
       <a href="#"><img src="images/instagram.png" style="height: 40px;width: 40px;"></a>
       <a href="#"><img src="images/google.png" style="height: 40px;width: 40px;"></a>
     </div>
-    
-  </div>
-  <script type="text/javascript" src="js/script.js"></script>
+</div>
+<!--adress,link end-->
+  <script type="text/javascript" src="bootstrap/js/script.js"></script>
+
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
   <footer class="footer">
     <div class="footer1">
       <p>&copy;2016 CS Dept. IAAU</p>
