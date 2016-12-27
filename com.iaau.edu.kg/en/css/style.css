@@ -134,8 +134,6 @@ hr{
     /* For tablets: */
 
 /* For mobile phones: */
-
-
 [class*="col-"] {
     width: 100%;
 
@@ -217,7 +215,7 @@ hr{
   top: 25%;
     margin-left: 11px;
 }
-.container-fluid {width: 83.33%;}
+.container-fluid {width: 80%;}
 .container-logo .col-md-6 p{
   display: block;
 }
@@ -478,5 +476,16 @@ header.carousel .fill {
 #lang{
 display: none;
 }
+.container-fluid .col-md-12 p{
+  color: white;
 
+}
+.container-fluid .col-md-12 h{
+  color: white;
+
+}
+.container-fluid .col-md-6 .row1{
+  margin-top: 20px;
+
+}
 
